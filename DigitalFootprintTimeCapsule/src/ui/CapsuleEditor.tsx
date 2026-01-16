@@ -101,6 +101,7 @@ function CapsuleEditor() {
                 onChange={() =>
                   setDeleteAfterOpening(!deleteAfterOpening)
                 }
+                required
               />
               Delete after opening
             </label>
