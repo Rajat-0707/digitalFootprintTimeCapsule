@@ -1,0 +1,120 @@
+/* Page background */
+.capsule-page {
+    min-height: 100vh;
+    background: #0b0614;
+    color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+/* Header */
+.capsule-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.capsule-header h1 {
+    font-size: 26px;
+    margin-bottom: 6px;
+}
+
+.capsule-header p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Card */
+.capsule-card {
+    width: 100%;
+    max-width: 520px;
+    background: #12091f;
+    padding: 28px;
+    border-radius: 14px;
+    box-shadow: 0 0 30px rgba(150, 80, 255, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+/* Fields */
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.field label {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.field input,
+.field textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+    resize: none;
+}
+
+.field textarea {
+    min-height: 120px;
+}
+
+.field input:focus,
+.field textarea:focus {
+    outline: none;
+    border-color: #a855f7;
+}
+
+/* Helper */
+.helper-text {
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 4px;
+}
+
+/* Advanced */
+.advanced span {
+    font-size: 14px;
+    color: #a855f7;
+    cursor: pointer;
+}
+
+.advanced-options {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 14px;
+}
+
+/* Button */
+.seal-btn {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 999px;
+    border: none;
+    background: linear-gradient(90deg, #9333ea, #7c3aed);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.seal-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(147, 51, 234, 0.45);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .capsule-card {
+        padding: 22px;
+    }
+}

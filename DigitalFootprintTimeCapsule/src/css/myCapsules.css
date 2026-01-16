@@ -1,0 +1,155 @@
+.capsule-page {
+  padding: 2.5rem;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* .capsule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.8rem;
+} */
+
+.capsule {
+  border-radius: 18px;
+  padding: 1.4rem;
+  position: relative;
+  background: linear-gradient(145deg, #1e293b, #020617);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.capsule:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.9);
+}
+
+/* LOCKED CAPSULE */
+.capsule.locked {
+  border: 1px dashed #64748b;
+  opacity: 0.65;
+}
+
+/* UNLOCKED CAPSULE */
+.capsule.open {
+  border: 1px solid #22c55e;
+}
+
+.capsule-top {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.lock-icon {
+  font-size: 1.4rem;
+}
+
+.capsule h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.capsule-date {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin: 0.6rem 0;
+}
+
+.capsule-preview {
+  font-size: 0.9rem;
+  color: #e5e7eb;
+  line-height: 1.5;
+}
+
+.capsule-locked-text {
+  font-size: 0.9rem;
+  color: #fbbf24;
+  font-style: italic;
+}
+
+.status {
+  text-align: center;
+  color: #94a3b8;
+}
+
+.error {
+  text-align: center;
+  color: #ef4444;
+}
+
+.capsule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.capsule-card {
+  background: linear-gradient(145deg, #1f2933, #111827);
+  border-radius: 14px;
+  padding: 1.5rem;
+  color: #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.capsule-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.45);
+}
+
+.capsule-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
+.capsule-date {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-bottom: 1.2rem;
+}
+
+.capsule-btn {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.capsule-btn.locked {
+  background: #374151;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.capsule-btn.unlocked {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: #ecfdf5;
+}
+
+
+.error-message {
+  color: #f87171;
+  text-align: center;
+  margin-top: 1rem;
+  border: 1px solid #f87171;
+  padding: 0.5rem;
+  border-radius: 4px
+}
