@@ -3,6 +3,10 @@
   min-height: 100vh;
   background: radial-gradient(circle at top, #0f172a, #020617);
   color: #e5e7eb;
+  background-image: url("/loginbg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .page-title {
