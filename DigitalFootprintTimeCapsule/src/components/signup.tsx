@@ -52,6 +52,11 @@ function Signup() {
 
   return (
     <div className="container">
+        <div className="backbutton">
+        <Link to="/">
+          <span>← Back to Home</span>
+        </Link>
+      </div>
       <div className="login-wrapper">
 
         <div className="login-right signup-right">
