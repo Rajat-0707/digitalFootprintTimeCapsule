@@ -37,6 +37,7 @@ function Signup() {
 
       navigate("/login");
     } catch (err) {
+      alert("Email already exists.");
       console.error("Signup error:", err);
       setError("Signup failed. Please try again.");
     } finally {

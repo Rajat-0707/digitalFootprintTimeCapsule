@@ -180,7 +180,7 @@
 
 
 .container {
-    animation: fadeIn 0.8s ease forwards;
+    animation: fadeIn 0.7s ease forwards;
 }
 
 @keyframes fadeIn {
@@ -194,7 +194,7 @@
 
 
 .login-wrapper {
-    animation: cardEnter 0.9s ease forwards;
+    animation: cardEnter 0.8s ease forwards;
 }
 
 @keyframes cardEnter {
@@ -210,12 +210,12 @@
 
 
 .login-left {
-    animation: slideLeft 0.9s ease forwards;
+    animation: slideLeft 0.8s ease forwards;
 }
 
 .login-right,
 .signup-right {
-    animation: slideRight 0.9s ease forwards;
+    animation: slideRight 0.8s ease forwards;
 }
 
 @keyframes slideLeft {
@@ -245,7 +245,7 @@
 .login-left button,
 .signup-left button {
     opacity: 0;
-    animation: fadeUp 0.6s ease forwards;
+    animation: fadeUp 0.5s ease forwards;
 }
 
 .form-group:nth-child(1) { animation-delay: 0.3s; }
@@ -267,7 +267,7 @@
 
 
 .login-wrapper {
-    animation: cardEnter 0.9s ease forwards, glowPulse 1.2s ease 0.9s;
+    animation: cardEnter 0.9s ease forwards, glowPulse 1s ease 0.9s;
 }
 
 @keyframes glowPulse {
