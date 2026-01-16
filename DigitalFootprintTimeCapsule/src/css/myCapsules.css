@@ -1,5 +1,5 @@
 .capsule-page {
-  padding: 2.5rem;
+  padding: 2.2rem;
   min-height: 100vh;
   background: radial-gradient(circle at top, #0f172a, #020617);
   color: #e5e7eb;
@@ -10,7 +10,7 @@
 }
 
 .page-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   letter-spacing: 1px;
@@ -54,29 +54,29 @@
 }
 
 .lock-icon {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .capsule h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 600;
   margin: 0;
 }
 
 .capsule-date {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: #94a3b8;
   margin: 0.6rem 0;
 }
 
 .capsule-preview {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #e5e7eb;
   line-height: 1.5;
 }
 
 .capsule-locked-text {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #fbbf24;
   font-style: italic;
 }
@@ -117,13 +117,13 @@
 }
 
 .capsule-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   margin-bottom: 0.6rem;
 }
 
 .capsule-date {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   color: #9ca3af;
   margin-bottom: 1.2rem;
 }
@@ -132,7 +132,7 @@
   padding: 0.6rem 1rem;
   border-radius: 8px;
   border: none;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   font-weight: 500;
   cursor: pointer;
 }
