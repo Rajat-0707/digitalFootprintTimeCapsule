@@ -17,6 +17,7 @@
 .mainPage-container h1{
     font-size: 3em;
     color: white;
+    text-align: center;
 }
 
 .mainPage-container p{
@@ -73,6 +74,9 @@
   .mainPage-container button {
     font-size: 24px;
     min-width: 196px;
+  }
+  .mainPage-container h1{
+    text-align: center;
   }
 }
 
